@@ -96,6 +96,8 @@ hr {
     font-size: 1.8rem;
     padding: 0 7px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
 }
 
 

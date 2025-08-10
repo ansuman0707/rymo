@@ -74,7 +74,7 @@ hr {
 
 
 .navbar {
-    margin-right: auto;
+    align-items: center;
     font-size: 30px;
     padding: 30%;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
@@ -97,7 +97,6 @@ hr {
 }
 
 .navbar i{
-    margin-right: auto;
     font-size: 1.8rem;
     padding: 0 7px;
     cursor: pointer;

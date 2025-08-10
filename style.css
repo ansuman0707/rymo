@@ -54,13 +54,13 @@ button{
 }
 
 button:hover{
-    background-color: rgb(134, 166, 102);
+    background-color: rgb(171, 97, 23);
 }
 
 hr {
     width: 30px;
     height: 2px;
-    background-color: chartreuse;
+    background-color: rgb(247, 127, 7);
 }
 
 .star {
@@ -73,23 +73,26 @@ hr {
 }
 
 
- .navbar {
+.navbar {
     font-size: 30px;
     padding: 30%;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-light .navbar-nav .nav-link{
-    padding: 0 20px;
+    
+    padding: 0 30px;
     color: black;
     transition: 0.3s ease;
+    display: flex;
+    align-items: center;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar i:hover, 
 .navbar-light .navbar-nav .nav-link.active,
 .navbar i.active{
-    color: chartreuse;
+    color:rgb(247, 127, 7);
 }
 
 .navbar i{
@@ -162,7 +165,7 @@ hr {
 }
 
 #home span{
-    color: chartreuse;
+    color: rgb(247, 127, 7);
 }
 
 #new .one img{
@@ -185,7 +188,7 @@ hr {
 
 #new .one:hover .details {
     cursor: pointer;
-    background-color: rgba(128, 255, 0, 0.251);
+    background-color: rgb(171, 97, 23);
 }
 
 #new .one:hover .details button{
@@ -244,7 +247,7 @@ hr {
 }
 
 .product .buy-btn {
-    background: chartreuse;
+    background: rgb(247, 127, 7);
     transform: translateY(20px);
     opacity: 0;
     transition: 0.3s all;
@@ -278,7 +281,7 @@ hr {
 }
 
 #banner button{
-    background-color: chartreuse;
+    background-color:rgb(247, 127, 7);
 }
 
 footer {
@@ -324,7 +327,7 @@ footer .copyright a{
 
 footer .copyright a:hover{
     color: #fff;
-    background-color: chartreuse;
+    background-color: rgb(247, 127, 7);
 }
 
 /* blog */
@@ -349,7 +352,7 @@ footer .copyright a:hover{
 }
 
 #blog-container .post:hover h3{
-    color: chartreuse;
+    color: rgb(247, 127, 7);
 }
 
 /* Cart */
@@ -370,7 +373,7 @@ footer .copyright a:hover{
 }
 
 #cart-container table thead td {
-    background: chartreuse;
+    background: rgb(247, 127, 7);
     color: #fff;
     border: none;
     padding: 6px 0;
@@ -409,7 +412,7 @@ footer .copyright a:hover{
 
 #cart-bottom .coupon h5,
 #cart-bottom .total h5 {
-    background: chartreuse;
+    background: rgb(247, 127, 7);
     color: #fff;
     border: none;
     padding: 6px 12px;
